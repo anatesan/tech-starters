@@ -1,0 +1,87 @@
+CSS Questions Style this HTML based on what you see in the text
+
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8" <title>Styling questions </title>
+  <style>
+    #a123 {
+      color: blue;
+    }
+
+    div:nth-child(2n+1) {
+      background-color: grey;
+    }
+
+    td:nth-child(2) {
+      background-color: blue;
+    }
+
+    .teal-div-class1,
+    .teal-div-class2 {
+      color: teal;
+    }
+
+    .red-div-class1.red-div-class2 {
+      color: red;
+    }
+
+    .style {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      color: #0000ff;
+      text-align: right;
+      text-transform: capitalize;
+    }
+  </style>
+</head>
+
+<body>
+  <a> Inside "a" tag
+    <div>Div 1 - Styled only when hover on a element only - change color to pink </div>
+    <div id="a123">Styled Div based on ID - color red </div>
+    <div>Div 3 only - Font 24px based on a style when hover on a element only</div>
+    <div class="teal-div-class1">Teal background Div 4 based on a class</div>
+    <div class="teal-div-class2">Teal background Div 4 based on a class</div>
+    <div class="red-div-class1 red-div-class2">
+      Red background only when both classes specified</div>
+    <div class="red-div-class1">
+        Red background only when only red-div-class1</div>
+  </a>
+
+  <div class="style">
+    Text bock with styling
+  </div>
+
+  <div>
+    <p>You can get commonly used font combinations from
+      <a href="http://www.w3schools.com/cssref/css_websafe_fonts.asp">
+        http://www.w3schools.com/cssref/css_websafe_fonts.asp</a>.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam quod necessitatibus
+      a ullam dolorum amet reprehenderit sit laudantium reiciendis aperiam. </p>
+  </div>
+
+  <table style="background-color:pink;">
+    <tr>
+      <td>
+        1st column
+      </td>
+      <td>
+        2nd column
+      </td>
+    </tr>
+    <tr>
+      <td>
+        1st column
+      </td>
+      <td>
+        2nd column
+      </td>
+    </tr>
+
+
+  </table>
+</body>
+
+</html>

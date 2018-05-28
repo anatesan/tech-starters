@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jpa-lombok-vignette" />
+        <module name="jpalombokvignette" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jpa-lombok-vignette" target="1.8" />
+      <module name="jpalombokvignette" target="1.6" />
+      <module name="vignettes" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
